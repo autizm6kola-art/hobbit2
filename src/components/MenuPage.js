@@ -33,7 +33,7 @@ function MenuPage({ allTasks, onSelectRange }) {
     setCorrectWordsCount(correct);
 
     // ДИАПОЗОН — количество заданий в одной кнопке
-    const rangeSize = 65;
+    const rangeSize = 60;
     const newRangesProgress = {};
 
     for (let i = 0; i < allTasks.length; i += rangeSize) {
