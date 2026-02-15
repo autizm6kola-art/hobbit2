@@ -9,6 +9,8 @@ import BackButton from './BackButton';
 import ProgressBar from './ProgressBar';
 import '../styles/menuPage.css';
 import BackupControls from './BackupControls';
+import DailyProgress from "./DailyProgress";
+
 
 function MenuPage({ allTasks, onSelectRange }) {
   const [correctWordsCount, setCorrectWordsCount] = useState(0);
@@ -33,7 +35,7 @@ function MenuPage({ allTasks, onSelectRange }) {
     setCorrectWordsCount(correct);
 
     // ДИАПОЗОН — количество заданий в одной кнопке
-    const rangeSize = 60;
+    const rangeSize = 100;
     const newRangesProgress = {};
 
     for (let i = 0; i < allTasks.length; i += rangeSize) {
@@ -82,6 +84,8 @@ function MenuPage({ allTasks, onSelectRange }) {
     <div className="menu-container">
       <BackButton />
       <h1 className="menu-title">Хоббит.</h1>
+
+      <DailyProgress />
 
       <ProgressBar correct={correctWordsCount} total={totalWords} />
 
