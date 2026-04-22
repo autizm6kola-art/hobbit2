@@ -110,7 +110,6 @@ function TasksPage({
           </strong>
           <DailyProgress />
         </p>
-
         <div className="percent-bar">
           <div
             className="percent-bar-fill"
