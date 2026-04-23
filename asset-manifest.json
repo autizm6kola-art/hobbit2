@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hobbit2/static/css/main.60874f62.css",
-    "main.js": "/hobbit2/static/js/main.33957ec3.js",
+    "main.js": "/hobbit2/static/js/main.db8f2739.js",
     "static/js/453.d37bcb50.chunk.js": "/hobbit2/static/js/453.d37bcb50.chunk.js",
     "index.html": "/hobbit2/index.html",
     "main.60874f62.css.map": "/hobbit2/static/css/main.60874f62.css.map",
-    "main.33957ec3.js.map": "/hobbit2/static/js/main.33957ec3.js.map",
+    "main.db8f2739.js.map": "/hobbit2/static/js/main.db8f2739.js.map",
     "453.d37bcb50.chunk.js.map": "/hobbit2/static/js/453.d37bcb50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60874f62.css",
-    "static/js/main.33957ec3.js"
+    "static/js/main.db8f2739.js"
   ]
 }
