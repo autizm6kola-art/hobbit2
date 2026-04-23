@@ -38,7 +38,7 @@ function TasksPageWrapper({
   setSelectedRange,
   goBack
 }) {
-  const rangeSize = 50;
+  const rangeSize = 10;
 
   // 1️⃣ Создаём все диапазоны, как в меню
   const ranges = useMemo(() => {
