@@ -79,6 +79,7 @@ export default function SentenceDisplay({
               👂
             </button> */}
 
+
               {!isHighlighted && (
 
   <button
