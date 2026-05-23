@@ -202,7 +202,7 @@ import { createSpeechRecognizer } from "../utils/bookUtils";
 
 import { addTodayWords } from "../utils/dailyStats";
 
-const APP_ID = "vlastelin";
+const APP_ID = "hobbit2";
 
 function normalizeToArray(text) {
   return text
