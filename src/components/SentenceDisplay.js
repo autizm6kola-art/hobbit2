@@ -71,13 +71,26 @@ export default function SentenceDisplay({
 
             {/* 👂 СЛУШАТЬ СЛОВО */}
 
-            <button
+            {/* <button
               className={styles.listenButton}
               onClick={() => speakWord(item.word)}
               title="Прослушать слово"
             >
               👂
-            </button>
+            </button> */}
+
+              {!isHighlighted && (
+
+  <button
+    className={styles.listenButton}
+    onClick={() => speakWord(item.word)}
+    title="Прослушать слово"
+  >
+    👂
+  </button>
+
+)}
+            
 
             {/* СЛОВО */}
 

@@ -12,7 +12,7 @@
 
 .word {
   font-size: 24px;
-  transition: 0.2s;
+  transition: 0.01s;
 }
 
 .highlighted {
@@ -22,9 +22,9 @@
 
   border-radius: 8px;
 
-  padding: 2px 6px;
+  padding: 2px 3px;
 
-  transition: 0.2s;
+  transition: 0.01s;
 }
 
 .active {
@@ -59,10 +59,10 @@
 
   font-size: 14px;
 
-  transition: 0.2s;
+  transition: 0.01s;
 }
 
 .listenButton:hover {
 
-  transform: scale(1.08);
+  transform: scale(1);
 }
